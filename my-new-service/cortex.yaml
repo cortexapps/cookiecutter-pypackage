@@ -1,0 +1,14 @@
+openapi: 3.0.1
+info:
+  title: Hello
+  description: asdfasdfas
+  x-cortex-tag: hello-there-shit
+  x-cortex-git:
+    github:
+      repository: cortexapps/cookiecutter-pypackage
+      basepath: my-new-service
+  x-cortex-service-groups:
+  - business-group:content
+  x-cortex-custom-metadata:
+    cortex-template-version: 0.1.0
+    cortex-generated-timestamp: 2022-02-09T10:54:46.794228
